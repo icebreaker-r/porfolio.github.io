@@ -1,0 +1,768 @@
+* {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+
+.head {
+    display: flex;
+    height: 1000px;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: start;
+    overflow-y: hidden;
+}
+
+.text-head-h4 {
+    margin: 100px 0 0 0;
+    overflow-y: hidden;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+
+    color: #006EFF;
+
+}
+
+.text-head-h1{
+
+    margin: 0 0 0 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    overflow-y: hidden;
+    color: #333333;
+}
+
+.text-head-h2 {
+    margin: 50px 0 0 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    overflow-y: hidden;
+    color: #333333;
+}
+
+.head-con-btn {
+    overflow-y: hidden;
+    height: 30%;
+    margin: 150px 0 0 0;
+    display: flex;
+    align-content: center;
+    padding: 20px 0 0 20px;
+}
+
+.more {
+    width: 230px;
+    height: 69px;
+    border: 2px solid rgba(0, 110, 255, 1);
+    background: none;
+    border-radius: 22px;
+    overflow-y: hidden;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 69px;
+
+    text-align: center;
+
+    color: #006EFF;
+
+    margin: 0 50px 0 0;
+
+    transition: transform .2s;
+}
+
+
+.more:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.connection {
+    border: 2px solid rgba(51, 51, 51, 1);
+    width: 270px;
+    height: 69px;
+    background: none;
+    border-radius: 22px;
+    overflow-y: hidden;
+    text-align: center;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 69px;
+
+    color: #333333;
+    transition: transform .2s;
+}
+
+
+.connection:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+/*------ Основная информация ------*/
+.main {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 80%;
+    justify-content: start;
+    overflow-y: hidden;
+}
+
+/*------ О себе ------*/
+.about {
+    display: flex;
+    height: 800px;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: start;
+}
+
+.title-about-me {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    overflow-y: hidden;
+    text-align: justify;
+    margin: 25px 0 0 0;
+    color: #333333;
+}
+
+.title-about {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 75px;
+    /* identical to box height */
+    overflow-y: hidden;
+    text-align: justify;
+    margin: 200px 0 0 0;
+    color: #333333;
+}
+
+.content-about {
+    display: flex;
+    height: 100%;
+    flex-direction: row;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+
+.text-about {
+    margin: 80px 0 0 0;
+    width: 60%;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+
+    text-align: justify;
+    overflow-y: hidden;
+    color: #333333;
+}
+
+.img-about {
+    width: 481px;
+    height: 411px;
+    overflow-y: hidden;
+}
+
+
+/*------ Контакты ------*/
+.contacts {
+    display: flex;
+    height: 600px;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 100%;
+    justify-content: start;
+    overflow-y: hidden;
+}
+
+.content-contacts {
+    display: flex;
+    height: 60%;
+    flex-direction: column;
+    margin-top: 50px;
+    margin-left: 30px;
+    width: 100%;
+    justify-content: start;
+    overflow-y: hidden;
+}
+
+.text-bold {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+    overflow-y: hidden;
+    color: #333333;
+}
+
+.text-normal {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+    margin-left: 40px;
+    color: #333333;
+    overflow-y: hidden;
+}
+
+.phone {
+    margin: 20px 0 0 0;
+    overflow-y: hidden;
+}
+
+/*------ Подвал ------*/
+.line-footer {
+    width: 100%;
+    height: 4px;
+    background-color: rgba(51, 51, 51, 1);
+}
+
+.content-footer {
+    display: flex;
+    height: 180px;
+    flex-direction: row;
+    margin: 50px auto;
+    width: 80%;
+    justify-content: space-between;
+    overflow-y: hidden;
+}
+
+.img-footer {
+    margin-top: 4%;
+    width: 53px;
+    height: 58px;
+    overflow-y: hidden;
+}
+
+.social-cont {
+    display: flex;
+    height: 150px;
+    flex-direction: column;
+    overflow-y: hidden;
+    justify-content: start;
+}
+
+.text-social {
+    margin: 10px 0 0 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: justify;
+    overflow-y: hidden;
+    color: #222222;
+}
+
+a {
+    text-decoration: none;
+    color: #222222;
+}
+
+.text-inf {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+
+    text-align: justify;
+
+    color: #222222;
+    margin: 20px 0 0 0;
+}
+
+.text-inf:hover {
+    color: #006EFF;
+    cursor: pointer;
+}
+
+.interesting-fact {
+    display: flex;
+    flex-direction: column;
+    overflow-y: hidden;
+    justify-content: start;
+}
+
+.interesting {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    /* identical to box height */
+    overflow-y: hidden;
+    text-align: justify;
+
+    color: #222222;
+}
+
+.fact {
+    margin: 20px 0 0 0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+    overflow-y: hidden;
+    color: #222222;
+}
+
+/*------ Перечисление ------*/
+.main-information {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    /*height: 2000px;*/
+    overflow-y: hidden;
+}
+
+.blue-line-1 {
+    width: 2px;
+    height: 100px;
+    background-color: #006EFF;
+    border-radius: 1px 1px 0 0;
+    overflow-y: hidden;
+    margin: 0 0 0 19px;
+}
+
+.title-education {
+    display: flex;
+    overflow-y: hidden;
+}
+
+.circle-pos-1 {
+    height: 40px;
+    width: 40px;
+    margin: 0 60px 0 0;
+}
+
+.circle {
+    margin: 15px ;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    overflow-y: hidden;
+    background-color: #006EFF;
+}
+
+.text-education {
+   font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 40px;
+    /* identical to box height */
+
+    text-align: justify;
+    overflow-y: hidden;
+    color: #333333;
+}
+
+.content-education {
+    display: flex;
+}
+
+.blue-line-2 {
+    width: 2px;
+    height: 580px;
+    background-color: #006EFF;
+    overflow-y: hidden;
+    margin: 0 79px 0 19px;
+}
+
+.list-education {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.list-title {
+    margin: 56px 0 0 0;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+
+    color: #333333;
+}
+
+.list-text {
+    margin: 10px 0 0 0;
+
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #777777;
+}
+
+.content-skills {
+    display: flex;
+}
+
+.list-category-skills {
+    display: flex;
+}
+
+.hard {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin: 0 50px 0 0;
+    width: 40%;
+}
+
+.soft {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 40%;
+}
+
+.title-hard {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+    margin: 25px 0 30px 0;
+    color: #777777;
+}
+
+.list-skills {
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.analysis {
+    width: 204px;
+    height: 46px;
+    border-radius:50px;
+    text-align: center;
+    background-color: #006EFF;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+    overflow-y: hidden;
+    margin: 10px 20px 10px 0;
+}
+
+.python {
+    width: 84px;
+    height: 46px;
+    overflow-y: hidden;
+    background-color: #006EFF;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+    border-radius:50px;
+    text-align: center;
+    margin: 10px 20px 10px 0;
+}
+
+.mikro {
+    width: 159px;
+    height: 44px;
+    overflow-y: hidden;
+    background-color: #006EFF;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+    border-radius:50px;
+    text-align: center;
+    margin: 10px 20px 10px 0;
+}
+
+.english {
+    width: 144px;
+    height: 46px;
+    overflow-y: hidden;
+    background-color: #006EFF;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+    border-radius:50px;
+    text-align: center;
+    margin: 10px 20px 10px 0;
+}
+
+.sql {
+    width: 117px;
+    height: 46px;
+    overflow-y: hidden;
+    background-color: #006EFF;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+    border-radius:50px;
+    text-align: center;
+    margin: 10px 20px 10px 0;
+}
+
+.makro {
+    width: 159px;
+    height: 46px;
+    margin: 10px 20px 10px 0;
+    background-color: #006EFF;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+    border-radius:50px;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.time {
+    width: 183px;
+    height: 46px;
+    margin: 10px 20px 10px 0;
+    background-color: #006EFF;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+    border-radius:50px;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.flexibility {
+    width: 183px;
+    height: 46px;
+    margin: 10px 20px 10px 0;
+    background-color: #006EFF;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+    border-radius:50px;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.learability {
+    width: 183px;
+    height: 46px;
+    margin: 10px 20px 10px 0;
+    background-color: #006EFF;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+    border-radius:50px;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.multiply {
+    width: 183px;
+    height: 46px;
+    margin: 10px 20px 10px 0;
+    background-color: #006EFF;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+    border-radius:50px;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.analitic {
+    width: 224px;
+    height: 46px;
+    margin: 10px 20px 10px 0;
+    background-color: #006EFF;
+    color: white;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 46px;
+    border-radius:50px;
+    text-align: center;
+    overflow-y: hidden;
+}
+
+.blue-line-3 {
+    width: 2px;
+    height: 800px;
+    background-color: #006EFF;
+    overflow-y: hidden;
+    margin: 0 79px 0 19px;
+
+}
+
+.first {
+    margin: 30px 0 20px 0;
+    overflow-y: hidden;
+}
+
+.content-activity {
+    display: flex;
+    overflow-y: hidden;
+}
+
+.list-activity {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.con-activity {
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.title-activity {
+    display: flex;
+    overflow-y: hidden;
+}
+
+.triangle {
+    height: 10px;
+    width: 10px;
+    margin: 9px 20px 7px 7px;
+}
+
+.text-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: justify;
+    overflow-y: hidden;
+    color: #333333;
+}
+
+.title-activity:hover {
+    cursor: pointer;
+}
+
+.content-text-activity {
+    height: 130px;
+    margin: 0 0 0 100px;
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    overflow-y: hidden;
+}
+
+.see-sert {
+    display: flex;
+    margin: 20px 0 0 0;
+    overflow-y: hidden;
+}
+
+.text-desc {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: justify;
+    margin: 30px 0 0 0;
+    color: #333333;
+    overflow-y: hidden;
+}
+
+.text-arrow {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    text-decoration: underline 1px;
+    overflow-y: hidden;
+    color: #333333;
+    margin: 0 20px 0 0;
+}
+
+.see-sert:hover {
+    cursor: pointer;
+}
+
+.show {
+    display: block;
+}
+
+.hide {
+
+    display: none;
+}

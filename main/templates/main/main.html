@@ -1,0 +1,388 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Главая</title>
+    <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+{#    <img src="{% static 'main/img/#' %}">#}
+    <header class="head">
+        <p class="text-head-h4">Привет !</p>
+        <p class="text-head-h1">Меня зовут Абрамов Роман, и я люблю Маяковского</p>
+        <p class="text-head-h2">Этот и многие другие факты обо мне вы сможете узнать на этом сайте</p>
+        <div class="head-con-btn">
+            <a href="#about_link" class="more">Узнать больше</a>
+            <a href="#contacts_link" class="connection">Связаться со мной</a>
+        </div>
+    </header>
+    <main class="main">
+
+        <div class="about" id="about_link">
+            <p class="title-about-me">О себе</p>
+            <div class="content-about">
+                <p class="text-about">Идейные соображения высшего порядка, а также реализация намеченных плановых заданий играет важную роль в формировании  организации позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. С
+                </p>
+                <img src="{% static 'main/img/фото.jpg' %}" class="img-about">
+            </div>
+        </div>
+
+        <div class="main-information">
+
+            <div class="blue-line-1"></div>
+
+            <div class="title-education">
+                <div class="circle-pos-1">
+                    <div class="circle"></div>
+                </div>
+                <div class="text-education">Образование</div>
+            </div>
+
+            <div class="content-education">
+                <div class="blue-line-2"></div>
+                <div class="list-education">
+
+                    <div>
+                        <p class="list-title">Государственное и муниципальное управление</p>
+                        <p class="list-text"> Тульский государственный университет, 2025</p>
+                    </div>
+
+                    <div>
+                        <p class="list-title">Программирование на языке Python</p>
+                        <p class="list-text">Проект “Цифровые кафедры” университета Innopolis, 2023</p>
+                    </div>
+
+                    <div>
+                        <p class="list-title">Онлайн-курс “Современные финансовые технологии”</p>
+                        <p class="list-text">Санкт-Петербургский государственный университет, 2023</p>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="title-education">
+                <div class="circle-pos-1">
+                    <div class="circle"></div>
+                </div>
+                <div class="text-education">Навыки</div>
+            </div>
+
+            <div class="content-skills">
+                <div class="blue-line-2"></div>
+                <div class="list-category-skills">
+                    <div class="hard">
+                        <div class="title-hard">Hard skills</div>
+                        <div class="list-skills">
+                            <div class="analysis">Статический анализ</div>
+                            <div class="python">Python</div>
+                            <div class="mikro">Микроэкономика</div>
+                            <div class="english">Английский B2</div>
+                            <div class="sql">SQL/СУБД</div>
+                            <div class="makro">Макроэкономика</div>
+                        </div>
+                    </div>
+                    <div class="soft">
+                        <div class="title-hard">Soft skills</div>
+                        <div class="list-skills">
+                            <div class="time">Тайм-менеджмент</div>
+                            <div class="flexibility">Гибкость мышления</div>
+                            <div class="learability">Обучаемость</div>
+                            <div class="multiply">Многозадачность</div>
+                            <div class="analitic">Аналитический склад ума</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="title-education">
+                <div class="circle-pos-1">
+                    <div class="circle"></div>
+                </div>
+                <div class="text-education">Достижения и активность</div>
+            </div>
+
+            <div class="content-activity">
+                <div class="blue-line-3" id="blue-line-3"></div>
+                <div class="list-activity">
+
+                    <div class="con-activity first">
+                        <div class="title-activity" id="grade">
+                            <img src="{% static 'main/img/triangle.svg' %}" class="triangle">
+                            <div class="text-title">Отличная успеваемость в университете</div>
+                        </div>
+                        <div class="content-text-activity" id="text-grade">
+                            <p class="text-desc">В рамках тренинга были изучены методы гибкого управления проектами (agile), а также был разработан и представлен проект ресторанного бизнеса.</p>
+                            <div class="see-sert">
+                                <a href="#" class="text-arrow">смотреть сертификат</a>
+                                <img src="{% static 'main/img/arrow.svg' %}" class="arrow">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="con-activity first">
+                        <div class="title-activity" id="school">
+                            <img src="{% static 'main/img/triangle.svg' %}" class="triangle">
+                            <div class="text-title">Окончание школы с отличием, 2021</div>
+                        </div>
+                        <div class="content-text-activity" id="text-school">
+                            <p class="text-desc">В рамках тренинга были изучены методы гибкого управления проектами (agile), а также был разработан и представлен проект ресторанного бизнеса.</p>
+                            <div class="see-sert">
+                                <a href="#" class="text-arrow">смотреть сертификат</a>
+                                <img src="{% static 'main/img/arrow.svg' %}" class="arrow">
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="con-activity first">
+                        <div class="title-activity" id="invest">
+                            <img src="{% static 'main/img/triangle.svg' %}" class="triangle">
+                            <div class="text-title">Участник  международной недели инвесторов, 2021</div>
+                        </div>
+                        <div class="content-text-activity" id="text-invest">
+                            <p class="text-desc">В рамках тренинга были изучены методы гибкого управления проектами (agile), а также был разработан и представлен проект ресторанного бизнеса.</p>
+                            <div class="see-sert">
+                                <a href="#" class="text-arrow">смотреть сертификат</a>
+                                <img src="{% static 'main/img/arrow.svg' %}" class="arrow">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="con-activity first">
+                        <div class="title-activity" id="search">
+                            <img src="{% static 'main/img/triangle.svg' %}" class="triangle">
+                            <div class="text-title">Участник цикла тренингов “Исследуй. Представляй” в рамках школы развития научного потенциала, 2021</div>
+                        </div>
+                        <div class="content-text-activity" id="text-search">
+                            <p class="text-desc">В рамках тренинга были изучены методы гибкого управления проектами (agile), а также был разработан и представлен проект ресторанного бизнеса.</p>
+                            <div class="see-sert">
+                                <a href="#" class="text-arrow">смотреть сертификат</a>
+                                <img src="{% static 'main/img/arrow.svg' %}" class="arrow">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="con-activity first">
+                        <div class="title-activity" id="trainig">
+                            <img src="{% static 'main/img/triangle.svg' %}" class="triangle">
+                            <div class="text-title">Участник проекта "Тренинги предпринимательских компетенций", 2022</div>
+                        </div>
+                        <div class="content-text-activity" id="text-trainig">
+                            <p class="text-desc">В рамках тренинга были изучены методы гибкого управления проектами (agile), а также был разработан и представлен проект ресторанного бизнеса.</p>
+                            <div class="see-sert">
+                                <a href="#" class="text-arrow">смотреть сертификат</a>
+                                <img src="{% static 'main/img/arrow.svg' %}" class="arrow">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="con-activity first">
+                        <div class="title-activity" id="prof">
+                            <img src="{% static 'main/img/triangle.svg' %}" class="triangle">
+                            <div class="text-title">Участник олимпиды “Я - профессионал” по направлениям Математика, Менеджмент, Экономика, 2022</div>
+                        </div>
+                        <div class="content-text-activity" id="text-prof">
+                            <p class="text-desc">В рамках тренинга были изучены методы гибкого управления проектами (agile), а также был разработан и представлен проект ресторанного бизнеса.</p>
+                            <div class="see-sert">
+                                <a href="#" class="text-arrow">смотреть сертификат</a>
+                                <img src="{% static 'main/img/arrow.svg' %}" class="arrow">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="con-activity first">
+                        <div class="title-activity" id="model">
+                            <img src="{% static 'main/img/triangle.svg' %}" class="triangle">
+                            <div class="text-title">Участник олимпиды “Я - профессионал” по направлению Математическое моделирование, 2023</div>
+                        </div>
+                        <div class="content-text-activity" id="text-model">
+                            <p class="text-desc">В рамках тренинга были изучены методы гибкого управления проектами (agile), а также был разработан и представлен проект ресторанного бизнеса.</p>
+                            <div class="see-sert">
+                                <a href="#" class="text-arrow">смотреть сертификат</a>
+                                <img src="{% static 'main/img/arrow.svg' %}" class="arrow">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="con-activity first">
+                        <div class="title-activity" id="autor">
+                            <img src="{% static 'main/img/triangle.svg' %}" class="triangle">
+                            <div class="text-title">Автор проекта школы финансовой грамотности и разумного инвестирования “FinIQ”, 2023</div>
+                        </div>
+                        <div class="content-text-activity" id="text-autor">
+                            <p class="text-desc">В рамках тренинга были изучены методы гибкого управления проектами (agile), а также был разработан и представлен проект ресторанного бизнеса.</p>
+                            <div class="see-sert">
+                                <a href="#" class="text-arrow">смотреть сертификат</a>
+                                <img src="{% static 'main/img/arrow.svg' %}" class="arrow">
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+        </div>
+
+        <div class="contacts" id="contacts_link">
+            <p class="title-about">Контакты</p>
+            <div class="content-contacts">
+                <p class="text-bold mail">Электронная почта: <span class="text-normal">radionixfl@gmail.com</span></p>
+                <p class="text-bold phone">Контактный телефон: <span class="text-normal">+7 (902) 844-59-04 </span></p>
+            </div>
+        </div>
+
+    </main>
+    <footer class="footer">
+        <hr class="line-footer">
+        <div class="content-footer">
+            <img src="{% static 'main/img/logo.svg' %}" class="img-footer">
+            <div class="social-cont">
+                <p class="text-social">Социальные сети</p>
+                <a class="text-inf" href="https://t.me/radionixfl" target="_blank">Телеграм</a>
+                <a class="text-inf" href="https://vk.com/radionixfl" target="_blank">ВКонтакте</a>
+            </div>
+            <div class="interesting-fact">
+                <p class="interesting">Интересный факт</p>
+                <p class="fact">Этот сайт сделал я сам</p>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    $('#text-grade').hide();
+    $('#text-school').hide();
+    $('#text-invest').hide();
+    $('#text-search').hide();
+    $('#text-trainig').hide();
+    $('#text-prof').hide();
+    $('#text-model').hide();
+    $('#text-autor').hide();
+
+    $('#grade').click(function(){
+        var h_rec = $('#blue-line-3').height();
+
+        if ($('#text-grade').is(':visible')) {
+           $('#text-grade').hide();
+           h_rec = h_rec - 150;
+           $('#blue-line-3').height(h_rec);
+
+        } else {
+            $('#text-grade').show();
+            h_rec = h_rec + 150;
+            $('#blue-line-3').height(h_rec);
+        }
+    });
+
+    $('#school').click(function(){
+        var h_rec = $('#blue-line-3').height();
+
+        if ($('#text-school').is(':visible')) {
+           $('#text-school').hide();
+           h_rec = h_rec - 150;
+           $('#blue-line-3').height(h_rec);
+
+        } else {
+            $('#text-school').show();
+            h_rec = h_rec + 150;
+            $('#blue-line-3').height(h_rec);
+        }
+    });
+
+    $('#invest').click(function(){
+        var h_rec = $('#blue-line-3').height();
+
+        if ($('#text-invest').is(':visible')) {
+           $('#text-invest').hide();
+           h_rec = h_rec - 150;
+           $('#blue-line-3').height(h_rec);
+
+        } else {
+            $('#text-invest').show();
+            h_rec = h_rec + 150;
+            $('#blue-line-3').height(h_rec);
+        }
+    });
+
+    $('#search').click(function(){
+        var h_rec = $('#blue-line-3').height();
+
+        if ($('#text-search').is(':visible')) {
+           $('#text-search').hide();
+           h_rec = h_rec - 150;
+           $('#blue-line-3').height(h_rec);
+
+        } else {
+            $('#text-search').show();
+            h_rec = h_rec + 150;
+            $('#blue-line-3').height(h_rec);
+        }
+    });
+
+     $('#trainig').click(function(){
+        var h_rec = $('#blue-line-3').height();
+
+        if ($('#text-trainig').is(':visible')) {
+           $('#text-trainig').hide();
+           h_rec = h_rec - 150;
+           $('#blue-line-3').height(h_rec);
+
+        } else {
+            $('#text-trainig').show();
+            h_rec = h_rec + 150;
+            $('#blue-line-3').height(h_rec);
+        }
+    });
+
+     $('#prof').click(function(){
+        var h_rec = $('#blue-line-3').height();
+
+        if ($('#text-prof').is(':visible')) {
+           $('#text-prof').hide();
+           h_rec = h_rec - 150;
+           $('#blue-line-3').height(h_rec);
+
+        } else {
+            $('#text-prof').show();
+            h_rec = h_rec + 150;
+            $('#blue-line-3').height(h_rec);
+        }
+    });
+
+     $('#model').click(function(){
+        var h_rec = $('#blue-line-3').height();
+
+        if ($('#text-model').is(':visible')) {
+           $('#text-model').hide();
+           h_rec = h_rec - 150;
+           $('#blue-line-3').height(h_rec);
+
+        } else {
+            $('#text-model').show();
+            h_rec = h_rec + 150;
+            $('#blue-line-3').height(h_rec);
+        }
+    });
+
+     $('#autor').click(function(){
+        var h_rec = $('#blue-line-3').height();
+
+        if ($('#text-autor').is(':visible')) {
+           $('#text-autor').hide();
+           h_rec = h_rec - 150;
+           $('#blue-line-3').height(h_rec);
+
+        } else {
+            $('#text-autor').show();
+            h_rec = h_rec + 150;
+            $('#blue-line-3').height(h_rec);
+        }
+    });
+
+</script>
+</html>
